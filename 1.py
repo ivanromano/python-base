@@ -42,3 +42,19 @@ print(products.name)
 
 # python manage.py migrate
 # python manage.py makemigrations
+# python manage.py shell
+# from my_app.models import Project, Tarea
+
+# buscar
+# p = Project.objects.get(id=1)
+# p.tarea_set.all()
+
+# filtrar
+# Project.objects.filter(name_startswith="apli")
+
+
+# crear algo
+# p = Project(name="aplicacion movil")
+# p.save()
+
+
