@@ -56,5 +56,3 @@ print(products.name)
 # crear algo
 # p = Project(name="aplicacion movil")
 # p.save()
-
-
